@@ -5,5 +5,8 @@ export default defineConfig({
   output: 'server',
   adapter: vercelServerless({
     imageService: true,
+    webAnalytics: {
+      enabled: true,
+    }
   }),
 });
