@@ -8,18 +8,94 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b286d1da980c327d",
+            "id": "d44f09cb4a6b6539",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3fc76b27a341e1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d7d8b395be31948",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Posts/6-30-2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34652ba801a1cf6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cameras.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b10bf59833c013fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "79455f9e89e3fc64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d595e90148b1d4e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cameras.md",
                 "mode": "preview",
                 "source": true
               }
             }
+          },
+          {
+            "id": "76602647e5cffaca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Posts/6-30-2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#303si",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +141,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,14 +162,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
-                "collapseAll": false,
+                "file": "Index.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +202,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Index.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,8 +223,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b286d1da980c327d",
+  "active": "d3fc76b27a341e1f",
   "lastOpenFiles": [
-    "about.md"
+    "Cameras.md",
+    "about.md",
+    "Posts/7-5-2024.md",
+    "Index.md",
+    "Posts/6-30-2024.md",
+    "My Work.md",
+    "2024-07-12.md",
+    "My Work/Digital.md",
+    "My Work/Analog.md",
+    "Posts",
+    "Media/DSC_7047.jpg",
+    "Media",
+    "My Work"
   ]
 }
