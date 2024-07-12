@@ -141,8 +141,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,9 +225,9 @@
   "active": "d3fc76b27a341e1f",
   "lastOpenFiles": [
     "Cameras.md",
+    "Index.md",
     "about.md",
     "Posts/7-5-2024.md",
-    "Index.md",
     "Posts/6-30-2024.md",
     "My Work.md",
     "2024-07-12.md",
