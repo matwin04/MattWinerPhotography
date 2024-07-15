@@ -3,7 +3,9 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Nav from '../components/Nav.astro';
 import ImageBasic from '../components/ImageBasic.astro';
-
+import { db, Posts } from 'astro:db';
+const posts = await db.select().from(Posts);
+---
 ---
 
 <Layout title="Welcome to Astro.">
@@ -23,14 +25,37 @@ import ImageBasic from '../components/ImageBasic.astro';
 			<ImageBasic
 				imagePath="/src/assets/images/D40/DSC_7047.jpg"
 				description='Hello'
-				width="500"
-				height="500"
 			/>
 		</ul>
+		<h2>Posts</h2>
+		{
+		posts.map(({ title,date,body }) => (
+			<table>
+				<thead>
+					<tr>
+						<th>title</th>
+						<th>date</th>
+						<th>other</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>{title}</td>
+						<td>{date}</td>
+						<td>{body}</td>
+					</tr>
+				</tbody>
+			</table>
+			))
+		}
 	</main>
 </Layout>
-
 <style>
+	table{
+		background-color: aliceblue;
+		color: blue;
+		width: 100%;
+	}
 	main {
 		margin: auto;
 		padding: 1rem;
