@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Nav from '../components/Nav.astro';
+import ImageBasic from '../components/ImageBasic.astro';
+
 ---
 
 <Layout title="Welcome to Astro.">
@@ -17,6 +19,12 @@ import Nav from '../components/Nav.astro';
 				href="/photos"
 				title="photos"
 				body='click here to view my photos'
+			/>
+			<ImageBasic
+				imagePath="/src/assets/images/D40/DSC_7047.jpg"
+				description='Hello'
+				width="500"
+				height="500"
 			/>
 		</ul>
 	</main>
