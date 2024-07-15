@@ -18,6 +18,11 @@ const posts = await db.select().from(Posts);
 				body="Click to view my instagram page"
 			/>
 			<Card
+				href="/about"
+				title="about"
+				body="about"
+			/>
+			<Card
 				href="/photos"
 				title="photos"
 				body='click here to view my photos'
@@ -27,27 +32,7 @@ const posts = await db.select().from(Posts);
 				description='Hello'
 			/>
 		</ul>
-		<h2>Posts</h2>
-		{
-		posts.map(({ title,date,body }) => (
-			<table>
-				<thead>
-					<tr>
-						<th>title</th>
-						<th>date</th>
-						<th>other</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>{title}</td>
-						<td>{date}</td>
-						<td>{body}</td>
-					</tr>
-				</tbody>
-			</table>
-			))
-		}
+
 	</main>
 </Layout>
 <style>
