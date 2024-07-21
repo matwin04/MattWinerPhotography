@@ -14,6 +14,7 @@
     "ejs": "^3.1.10"
 =======
     "@astrojs/db": "^0.11.7",
+<<<<<<< HEAD
     "@astrojs/markdoc": "^0.11.1",
     "@astrojs/mdx": "^3.1.2",
     "@astrojs/starlight": "^0.25.1",
@@ -21,5 +22,8 @@
     "astro": "^4.11.5",
     "tailwindcss": "^3.4.5"
 >>>>>>> parent of 2725e67 (50)
+=======
+    "astro": "^4.11.5"
+>>>>>>> parent of d938bcc (48)
   }
 }
