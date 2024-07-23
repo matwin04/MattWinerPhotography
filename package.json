@@ -1,7 +1,5 @@
 {
-  "name": "",
-  "type": "module",
-  "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,13 +8,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/db": "^0.11.7",
-    "@astrojs/markdoc": "^0.11.1",
-    "@astrojs/mdx": "^3.1.2",
-    "@astrojs/starlight": "^0.25.1",
-    "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.11.5",
-    "astro-icon": "^1.1.0",
-    "tailwindcss": "^3.4.5"
+    "@astrojs/vercel": "7.6.0",
+    "astro": "^4.12.2",
+    "react": "18.3.1",
+    "web-vitals": "^4.0.1"
   }
 }
