@@ -1,9 +1,2 @@
-/// <reference types="astro/client-image" />
-
-interface ImportMetaEnv {
-	readonly PUBLIC_VERCEL_ANALYTICS_ID: string;
-}
-
-interface ImportMeta {
-	readonly env: ImportMetaEnv;
-}
+/// <reference path="../.astro/db-types.d.ts" />
+/// <reference types="astro/client" />
